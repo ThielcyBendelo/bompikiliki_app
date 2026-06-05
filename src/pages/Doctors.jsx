@@ -6,16 +6,15 @@ import {
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaEnvelope, FaTimes, FaUserMd } from 'react-icons/fa';
 // Importation des assets
-import { doctor1, doctor2, doctor3, doctor4, doctor5, doctor6, doctor7 } from '../assets';
+import { doctarubi, doctagra, doctami, doctajo, doctalew, doctalph }from '../assets';
 
 const doctors = [
-  { name: 'Dr. Gaetan Rubi', specialty: 'Gynécologue', img: doctor1, bio: 'Expert en santé reproductive et suivi de grossesse.' },
-  { name: 'Dr. Grady ', specialty: 'Cardiologue', img: doctor2, bio: 'Spécialiste des pathologies cardiaques et vasculaires.' },
-  { name: 'Dr. Mylor', specialty: 'Dermatologue', img: doctor3, bio: 'Expert en soins de la peau et traitements laser.' },
-  { name: 'Dr. Sarah K.', specialty: 'Pédiatre', img: doctor4, bio: 'Accompagnement et soins pour le bien-être des enfants.' },
-  { name: 'Dr. David L.', specialty: 'Ophtalmologue', img: doctor5, bio: 'Spécialiste de la vision et chirurgie oculaire.' },
-  { name: 'Dr. Amina R.', specialty: 'Dentiste', img: doctor6, bio: 'Soins dentaires complets et esthétique du sourire.' },
-  { name: 'Dr. Marc T.', specialty: 'Neurologue', img: doctor7, bio: 'Expert en troubles du système nerveux.' },
+  { name: 'Dr. Gaetan RUBI KOKI', img: doctarubi },
+  { name: 'Dr. Grady NGYAMBUDULU  N\'SONGO', img: doctagra },
+  { name: 'Dr. Milord NKUNDJI IDUMA', img: doctami },
+  { name: 'Dr. Joel PONGO LENGA', img: doctajo },
+  { name: 'Dr. Alphonse ATOMA TSHITENGE', img: doctalph },
+  { name: 'Dr. Lewis NGALA WALA', img: doctalew },
 ];
 
 // Animation des variantes pour la grille
@@ -129,7 +128,7 @@ export default function Doctors() {
                 height: 180, 
                 mx: 'auto', 
                 mb: 2, 
-                border: '5px solid white', 
+                border: '8px solid white', 
                 boxShadow: '0 8px 24px rgba(0,0,0,0.12)', 
                 bgcolor: '#fff',
                 transition: 'transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), border-color 0.4s ease'
